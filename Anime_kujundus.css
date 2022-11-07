@@ -1,3 +1,20 @@
+body {
+    background-color: blanchedalmond;
+}
+
 header h1 {
     text-align: center;
+}
+
+div {
+    background-color: forestgreen;
+    height: 400px;
+}
+
+div p {
+    text-align: start;
+    width: 50%;
+}
+
+div img {
 }
