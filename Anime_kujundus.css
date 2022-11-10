@@ -9,6 +9,15 @@ header h1 {
 div {
     background-color: forestgreen;
     height: 400px;
+    margin-bottom: 0px;
+    overflow: auto;
+}
+
+#anime {
+    background-image: url("https://i0.wp.com/thenerddaily.com/wp-content/uploads/2018/08/Reasons-To-Watch-Anime.jpg?fit=1000%2C742&ssl=1");
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: 700px;
 }
 
 div p {
@@ -17,4 +26,22 @@ div p {
 }
 
 div img {
+    position: relative;
+    align-content: right;
+    margin-top: -100px;
+    margin-left: auto;
+    display: block;
+    width: 500px;
+    height: 400px
+}
+
+nav {
+    font-size: 0;
+}
+
+nav button {
+    background-color: darkblue;
+    color: white;
+    height: 75px;
+    width: 200px;
 }
