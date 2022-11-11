@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Anime_kujundus.css">
+    <title>Weebileht</title>
+    <style>
+.split_left {
+    left: 0;
+    background-color: rgb(0, 248, 136);
+    height: 100%;
+    width: 50%;
+    transition: 0.3s;
+    z-index: -1;
+    top: 0;
+    position: fixed;
+}
+  
+.split_right {
+    right: 0;
+    background-color: rgb(87, 59, 59);
+    height: 100%;
+    width: 50%;
+    transition: 0.3s;
+    z-index: -1;
+    top: 0;
+    position: fixed;
+}
+
+.split_left:hover {
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    width: 60%
+}
+  
+.split_right:hover {
+    right: 0;
+    background-color: red;
+    z-index: 1;
+    width: 60%
+    
+
+}
+
+.centered {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+} 
+    </style>
+</head>
+<body>
+<div class="split_left">
+    <div class="centered">
+    <p>Some text.</p>
+</div>
+</div>
+<div class="split_right">
+    <div class="centered">
+    <p>Some text.</p>
+</div>
+</div>
+</body>
+</html>
