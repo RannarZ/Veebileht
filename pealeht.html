@@ -7,64 +7,30 @@
     <link rel="stylesheet" href="Anime_kujundus.css">
     <title>Weebileht</title>
     <style>
-.split_left {
-    left: 0;
-    background-color: rgb(0, 248, 136);
-    height: 100%;
-    width: 50%;
-    transition: 0.3s;
-    z-index: -1;
-    top: 0;
-    position: fixed;
-}
-  
-.split_right {
-    right: 0;
-    background-color: rgb(87, 59, 59);
-    height: 100%;
-    width: 50%;
-    transition: 0.3s;
-    z-index: -1;
-    top: 0;
-    position: fixed;
-}
+body {
+    background-color: rgb(0, 0, 0);
+}       
 
-.split_left:hover {
-    left: 0;
-    background-color: rgb(255, 255, 255);
-    z-index: 1;
-    width: 60%
+div {
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 10vw;
+    overflow: auto;
 }
-  
-.split_right:hover {
-    right: 0;
-    background-color: red;
-    z-index: 1;
-    width: 60%
-    
-
-}
-
-.centered {
-    position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-
-} 
     </style>
 </head>
 <body>
-<div class="split_left">
-    <div class="centered">
-    <p>Some text.</p>
+
+<a href="https://myanimelist.net/anime/41457/86" class="split_left">
+    <div id="round" class="centered">
+    <i>ANIME</i>
 </div>
+</a>
+
+<a href="https://myanimelist.net/manga/104039/86" class="split_right">
+    <div id="round" class="centered">
+    <i>MANGA</i>
 </div>
-<div class="split_right">
-    <div class="centered">
-    <p>Some text.</p>
-</div>
-</div>
+</a>
+
 </body>
 </html>
