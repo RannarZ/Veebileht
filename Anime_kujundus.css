@@ -1,9 +1,5 @@
-header h1 {
-    text-align: center;
-}
-
 body {
-    background-color: white;
+    background-color: black;
 }
 
 header h1 {
@@ -12,12 +8,11 @@ header h1 {
 }
 
 div {
-    background-color: forestgreen;
-    height: 500px;
+    height: 600px;
     width: 100%;
     margin-bottom: 0px;
     overflow: auto;
-    color: white;
+    color: black;
 }
 
 /* #anime {
@@ -28,24 +23,35 @@ div {
     background-size: cover;
 } */
 
+/* https://s24193.pcdn.co/wp-content/uploads/2017/08/candice-horde-entity-@sabaku_____.png
+*/
 #anime {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 1) 1100px, rgba(255, 255, 255, 1) 10px), url(https://i.pinimg.com/originals/98/7f/01/987f01a92ab6516cca1d3faf0d591630.jpg) no-repeat;
-    border: solid 1px #000;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url(https://i.pinimg.com/originals/98/7f/01/987f01a92ab6516cca1d3faf0d591630.jpg) no-repeat;
     background-position: right;
     color: black;
-
 }
 
+#tekst2 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    float: right;
+}
 
-
+#action {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 800px, rgba(255, 255, 255, 1) 0), url(https://wallpaperaccess.com/full/3354117.jpg) no-repeat;
+    background-position: right;
+    color: black;
+}
 
 div p {
-    text-align: start;
+    text-align: center;
     width: 50%;
 }
 
 nav {
     font-size: 0;
+    width: 100%;
 }
 
 nav button {
@@ -54,18 +60,6 @@ nav button {
     height: 75px;
     width: 200px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .split_left {
     left: 0;
