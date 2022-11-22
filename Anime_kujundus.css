@@ -1,42 +1,57 @@
 body {
-    background-color: blanchedalmond;
+    background-color: black;
 }
 
 header h1 {
     text-align: center;
+    color: white;
 }
 
 div {
-    background-color: forestgreen;
-    height: 400px;
+    height: 600px;
+    width: 100%;
     margin-bottom: 0px;
     overflow: auto;
+    color: black;
 }
 
+/* #anime {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+    opacity: 0.5;
+    background-image: url("https://i.pinimg.com/originals/98/7f/01/987f01a92ab6516cca1d3faf0d591630.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* https://s24193.pcdn.co/wp-content/uploads/2017/08/candice-horde-entity-@sabaku_____.png
+*/
 #anime {
-    background-image: url("https://i0.wp.com/thenerddaily.com/wp-content/uploads/2018/08/Reasons-To-Watch-Anime.jpg?fit=1000%2C742&ssl=1");
-    background-repeat: repeat-y;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url(https://i.pinimg.com/originals/98/7f/01/987f01a92ab6516cca1d3faf0d591630.jpg) no-repeat;
     background-position: right;
-    background-size: 700px;
+    color: black;
+}
+
+#tekst2 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+
+#action {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 800px, rgba(255, 255, 255, 1) 0), url(https://wallpaperaccess.com/full/3354117.jpg) no-repeat;
+    background-position: right;
+    color: black;
 }
 
 div p {
-    text-align: start;
+    text-align: center;
     width: 50%;
-}
-
-div img {
-    position: relative;
-    align-content: right;
-    margin-top: -100px;
-    margin-left: auto;
-    display: block;
-    width: 500px;
-    height: 400px
 }
 
 nav {
     font-size: 0;
+    width: 100%;
 }
 
 nav button {
@@ -50,9 +65,9 @@ nav button {
     left: 0;
     background-color: rgb(0, 0, 0);
     opacity: 0.3;
-    background-image: url("pildid/animecover.png");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-image: url("https://cdn.myanimelist.net/images/anime/1987/117507.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 50%;
     transition: 0.3s;
@@ -61,14 +76,14 @@ nav button {
     position: fixed;
     color: white;
 }
-  
+
 .split_right {
     right: 0;
     background-color: rgb(0, 0, 0);
     opacity: 0.3;
-    background-image: url("pildid/mangacover.png");
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-image: url("https://static.wikia.nocookie.net/86-eighty-six/images/b/b6/Light_Novel_Volume_1_Cover.jpg/");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
     width: 50%;
     transition: 0.3s;
@@ -84,22 +99,21 @@ nav button {
     transform: scale(1.2);
     opacity: 1;
 }
-  
+
 .split_right:hover {
     right: 0;
     z-index: 1;
     transform: scale(1.2);
     opacity: 1;
-    
 
 }
 
 .centered {
     position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 
 }
 
