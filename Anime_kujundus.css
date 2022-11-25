@@ -14,6 +14,7 @@ header h1 {
     overflow: auto;
     color: black;
     transition: 0.5s;
+    right: 0;
 }
 
 /* #anime {
@@ -27,7 +28,7 @@ header h1 {
 /* https://s24193.pcdn.co/wp-content/uploads/2017/08/candice-horde-entity-@sabaku_____.png
 */
 #anime {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url(https://i.pinimg.com/originals/98/7f/01/987f01a92ab6516cca1d3faf0d591630.jpg) no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Anime lehe pildid/Anime tutvustuse taust.jpg") no-repeat;
     background-position: right;
     color: black;
 }
@@ -41,39 +42,67 @@ header h1 {
 }
 
 #action {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url(https://wallpaperaccess.com/full/3354117.jpg) no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Action\ anime.jpg") no-repeat;
     background-position: center;
     background-size: cover cover fixed;
     color: black;
+    z-index: -1;
 }
 
 #adventure {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url(https://junkyardview.files.wordpress.com/2018/07/princessmononoke.jpg) no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Anime lehe pildid/Adventure.jpg") no-repeat;
     background-position: right;
     width: 100%;
     color: black;
+    z-index: -1;
 }
 
 #comedy {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url(https://cdn.gaminggorilla.com/wp-content/uploads/2021/11/Best-Comedy-Anime-KonoSuba.jpg) no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Comedy.jpg") no-repeat;
     background-position: left;
     background-size: cover cover fixed;
     color: black;
+    z-index: -1;
 }
 
 #drama {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url(https://i0.wp.com/www.cinemamonogatari.com/wp-content/uploads/2021/09/e0925c100b93c6055ed3c5c7384449fb-700.jpg?fit=1244%2C700&ssl=1) no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Anime lehe pildid/Drama.png") no-repeat;
     background-position: right;
     color: black;
+    z-index: -1;
 }
 
 #slice_of_life {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url(https://wallpapercave.com/wp/wp9894943.jpg) no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Slice_of_life.jpg") no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
+    z-index: -1;
 }
 
+#horror {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/horror.jpg") no-repeat;
+    background-position: right;
+    background-size: contain;
+    color: black;
+    z-index: -1;
+}
+
+#sport {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/sport.png") no-repeat;
+    background-position: left;
+    background-size: contain;
+    color: black;
+    z-index: -1;
+}
+
+#Mystery {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Mystery.jpg") no-repeat;
+    background-position: right;
+    background-size: contain;
+    color: black;
+    z-index: -1;
+}
 
 #tekst1 p,
 #tekst1 h2 {
@@ -86,12 +115,12 @@ header h1 {
 h2 {
     text-align: center;
     margin-right: 5vw;
-
 }
 
 .zanr:hover {
     transform: scale(1.1);
-
+    z-index: 1;
+    right: 0;
 }
 
 nav {
