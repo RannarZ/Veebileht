@@ -7,12 +7,13 @@ header h1 {
     color: white;
 }
 
-div {
+.zanr {
     height: 600px;
     width: 100%;
     margin-bottom: 0px;
     overflow: auto;
     color: black;
+    transition: 0.5s;
 }
 
 /* #anime {
@@ -36,10 +37,11 @@ div {
     width: 50%;
     text-align: center;
     float: right;
+    transition: 0.3s;
 }
 
 #action {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 57vw, rgba(255, 255, 255, 1) 0), url(https://wallpaperaccess.com/full/3354117.jpg) no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url(https://wallpaperaccess.com/full/3354117.jpg) no-repeat;
     background-position: center;
     background-size: cover cover fixed;
     color: black;
@@ -53,7 +55,7 @@ div {
 }
 
 #comedy {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 57vw, rgba(255, 255, 255, 1) 0), url(https://cdn.gaminggorilla.com/wp-content/uploads/2021/11/Best-Comedy-Anime-KonoSuba.jpg) no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url(https://cdn.gaminggorilla.com/wp-content/uploads/2021/11/Best-Comedy-Anime-KonoSuba.jpg) no-repeat;
     background-position: left;
     background-size: cover cover fixed;
     color: black;
@@ -66,15 +68,30 @@ div {
 }
 
 #slice_of_life {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 57vw, rgba(255, 255, 255, 1) 0), url(https://wallpapercave.com/wp/wp9894943.jpg) no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url(https://wallpapercave.com/wp/wp9894943.jpg) no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
 }
 
-div p {
+
+#tekst1 p,
+#tekst1 h2 {
     text-align: center;
-    width: 50%;
+    width: 45%;
+    margin-left: 3.4vw;
+}
+
+#tekst2 p,
+h2 {
+    text-align: center;
+    margin-right: 5vw;
+
+}
+
+.zanr:hover {
+    transform: scale(1.1);
+
 }
 
 nav {
