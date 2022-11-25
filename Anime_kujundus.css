@@ -30,6 +30,7 @@ header h1 {
 #anime {
     background: linear-gradient(to left, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Anime lehe pildid/Anime tutvustuse taust.jpg") no-repeat;
     background-position: right;
+    background-size: cover;
     color: black;
 }
 
@@ -42,8 +43,8 @@ header h1 {
 }
 
 #action {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Action\ anime.jpg") no-repeat;
-    background-position: center;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Action anime.jpg") no-repeat;
+    background-position: left;
     background-size: cover cover fixed;
     color: black;
     z-index: -1;
@@ -68,12 +69,13 @@ header h1 {
 #drama {
     background: linear-gradient(to left, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Anime lehe pildid/Drama.png") no-repeat;
     background-position: right;
+    background-size: contain;
     color: black;
     z-index: -1;
 }
 
 #slice_of_life {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Slice_of_life.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Slice_of_life.png") no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
@@ -81,7 +83,7 @@ header h1 {
 }
 
 #horror {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/horror.jpg") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/horror.png") no-repeat;
     background-position: right;
     background-size: contain;
     color: black;
@@ -99,10 +101,69 @@ header h1 {
 #Mystery {
     background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Mystery.jpg") no-repeat;
     background-position: right;
+    background-size: cover;
+    color: black;
+    z-index: -1;
+}
+
+#romance {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Romance.png") no-repeat;
+    background-position: left;
     background-size: contain;
     color: black;
     z-index: -1;
 }
+
+#supernatural {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Supernatural.png") no-repeat;
+    background-position: right;
+    background-size: contain;
+    color: black;
+    z-index: -1;
+}
+
+#avantgarde {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Mystery.jpg") no-repeat;
+    background-position: left;
+    background-size: cover;
+    color: black;
+    z-index: -1;
+}
+
+#fantasy {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Fantasy.jpeg") no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: black;
+    z-index: -1;
+}
+
+
+#suspense {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/suspense.png") no-repeat;
+    background-position: left;
+    background-size: contain;
+    color: black;
+    z-index: -1;
+}
+
+#sci-fi {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Mystery.jpg") no-repeat;
+    background-position: right;
+    background-size: cover;
+    color: black;
+    z-index: -1;
+}
+
+#gourmet {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Mystery.jpg") no-repeat;
+    background-position: left;
+    background-size: cover;
+    color: black;
+    z-index: -1;
+}
+
+
 
 #tekst1 p,
 #tekst1 h2 {
