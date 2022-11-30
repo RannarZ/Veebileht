@@ -1,10 +1,37 @@
+html {
+    scroll-behavior: smooth;
+    transition: 3s;
+}
+
 body {
     background-color: black;
+}
+
+header button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: grey;
+    border: none;
 }
 
 header h1 {
     text-align: center;
     color: white;
+}
+
+nav {
+    font-size: 0;
+    width: 100%;
+    margin-right: 0;
+}
+
+nav button {
+    background-color: darkblue;
+    color: white;
+    font-size: large;
+    height: 75px;
+    width: 25%;
 }
 
 .zanr {
@@ -123,7 +150,7 @@ header h1 {
 }
 
 #avantgarde {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Mystery.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Avant-Garde.jpeg") no-repeat;
     background-position: left;
     background-size: cover;
     color: black;
@@ -148,17 +175,17 @@ header h1 {
 }
 
 #sci-fi {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Mystery.jpg") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Sci-fi.png") no-repeat;
     background-position: right;
-    background-size: cover;
+    background-size: contain;
     color: black;
     z-index: -1;
 }
 
 #gourmet {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Mystery.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Gourmet.png") no-repeat;
     background-position: left;
-    background-size: cover;
+    background-size: contain;
     color: black;
     z-index: -1;
 }
@@ -182,16 +209,4 @@ h2 {
     transform: scale(1.1);
     z-index: 1;
     right: 0;
-}
-
-nav {
-    font-size: 0;
-    width: 100%;
-}
-
-nav button {
-    background-color: darkblue;
-    color: white;
-    height: 75px;
-    width: 200px;
 }
