@@ -4,8 +4,9 @@ html {
 }
 
 body {
-    background-image: url("Pildid/Anime lehe pildid/Üldine background.PNG");
+    background-image: url("Pildid/Manga pildid/Manga background.jpeg");
     background-repeat: no-repeat;
+    background-size: contain;
     margin: 0;
     padding: 0;
 }
@@ -39,20 +40,21 @@ nav {
 }
 
 nav button {
-    background-color: darkgreen;
+    background-color: black;
     color: white;
     font-size: large;
     height: 75px;
     width: 25%;
     border-radius: 10px;
-    border-color: black;
+    border-color: grey;
 }
 
 nav button:hover {
     text-decoration: underline;
     text-underline-offset: 5px;
-    background-color: green;
+    background-color: grey;
 }
+
 
 .zanr {
     height: 600px;
@@ -64,8 +66,8 @@ nav button:hover {
     right: 0;
 }
 
-#anime {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Anime lehe pildid/Anime tutvustuse taust.jpg") no-repeat;
+#manga {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Manga pildid/manga.webp") no-repeat;
     background-position: right;
     background-size: cover;
     color: black;
@@ -80,9 +82,9 @@ nav button:hover {
 }
 
 #action {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Action anime.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/action.jpg") no-repeat;
     background-position: left;
-    background-size: cover cover fixed;
+    background-size: cover;
     color: black;
     z-index: -1;
 }
