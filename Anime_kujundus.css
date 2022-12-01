@@ -4,15 +4,20 @@ html {
 }
 
 body {
-    background-color: black;
+    background-image: url("Pildid/Anime lehe pildid/Üldine background.PNG");
+    background-repeat: no-repeat;
 }
 
-header button {
-    width: 100px;
-    height: 50px;
-    border-radius: 5px;
+header a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-size: 50px;
+    text-decoration: none;
+    color: black;
     background-color: grey;
-    border: none;
+    border-radius: 5px;
+    font-size: xx-large;
 }
 
 header h1 {
