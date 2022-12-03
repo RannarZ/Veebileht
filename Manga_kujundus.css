@@ -81,6 +81,14 @@ nav button:hover {
     transition: 0.3s;
 }
 
+#tekst1 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    float: left;
+    transition: 0.3s;
+}
+
 #action {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/action.jpg") no-repeat;
     background-position: left;
@@ -90,7 +98,7 @@ nav button:hover {
 }
 
 #adventure {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Anime lehe pildid/Adventure.jpg") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Manga pildid/adventure.jpg") no-repeat;
     background-position: right;
     width: 100%;
     color: black;
@@ -98,7 +106,7 @@ nav button:hover {
 }
 
 #comedy {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Comedy.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Comedy.jpg") no-repeat;
     background-position: left;
     background-size: cover cover fixed;
     color: black;
@@ -106,7 +114,7 @@ nav button:hover {
 }
 
 #drama {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Anime lehe pildid/Drama.png") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 400px, rgba(255, 255, 255, 1) 700px, rgba(255, 255, 255, 1) 10px), url("pildid/Manga pildid/Drama.jpg") no-repeat;
     background-position: right;
     background-size: contain;
     color: black;
@@ -114,7 +122,7 @@ nav button:hover {
 }
 
 #slice_of_life {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Slice_of_life.png") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/slice of life.jpg") no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
@@ -122,7 +130,7 @@ nav button:hover {
 }
 
 #horror {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/horror.png") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/horror.jpg") no-repeat;
     background-position: right;
     background-size: contain;
     color: black;
@@ -130,7 +138,7 @@ nav button:hover {
 }
 
 #sport {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/sport.png") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/sports.jpg") no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
@@ -138,7 +146,7 @@ nav button:hover {
 }
 
 #Mystery {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Mystery.jpg") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Mystery.jpg") no-repeat;
     background-position: right;
     background-size: cover;
     color: black;
@@ -146,7 +154,7 @@ nav button:hover {
 }
 
 #romance {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Romance.png") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Romance.jpg") no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
@@ -154,7 +162,7 @@ nav button:hover {
 }
 
 #supernatural {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Supernatural.png") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Supernatural.jpg") no-repeat;
     background-position: right;
     background-size: contain;
     color: black;
@@ -162,7 +170,7 @@ nav button:hover {
 }
 
 #avantgarde {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Avant-Garde.jpeg") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Avant Garde.jpg") no-repeat;
     background-position: left;
     background-size: cover;
     color: black;
@@ -170,7 +178,7 @@ nav button:hover {
 }
 
 #fantasy {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Fantasy.jpeg") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Fantasy.jpg") no-repeat;
     background-position: right;
     background-size: cover;
     color: black;
@@ -179,7 +187,7 @@ nav button:hover {
 
 
 #suspense {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/suspense.png") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/suspence.jpg") no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
@@ -187,7 +195,7 @@ nav button:hover {
 }
 
 #sci-fi {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Sci-fi.png") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Sci-fi.jpg") no-repeat;
     background-position: right;
     background-size: contain;
     color: black;
@@ -195,7 +203,7 @@ nav button:hover {
 }
 
 #gourmet {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Gourmet.png") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Gourmet.jpg") no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
@@ -207,7 +215,6 @@ nav button:hover {
 #tekst1 p,
 #tekst1 h2 {
     text-align: center;
-    width: 45%;
     margin-left: 5vw;
 }
 
@@ -221,4 +228,25 @@ h2 {
     transform: scale(1.1);
     z-index: 1;
     right: 0;
+}
+
+.column_right {
+    float: right;
+    width: 50%;
+}
+
+.column_left {
+    float: left;
+    width: 50%;
+}
+
+p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 22px; 
 }
