@@ -79,7 +79,7 @@ nav button:hover {
 }
 
 #slice_of_life {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("/pildid/Manga pildid/Elu\ lõige.jpeg") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Elu\ lõige.jpeg") no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
@@ -87,7 +87,7 @@ nav button:hover {
 }
 
 #horror {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("/pildid/Manga pildid/horror.jpg") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/horror.jpg") no-repeat;
     background-position: right;
     background-size: contain;
     color: black;
@@ -95,7 +95,7 @@ nav button:hover {
 }
 
 #sport {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("/pildid/Manga pildid/sports.jpg") no-repeat;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/sports.jpg") no-repeat;
     background-position: left;
     background-size: contain;
     color: black;
@@ -103,7 +103,7 @@ nav button:hover {
 }
 
 #Mystery {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("/pildid/Manga pildid/mystery.jpg") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/mystery.jpg") no-repeat;
     background-position: right;
     background-size: cover;
     color: black;
