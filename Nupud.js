@@ -2,7 +2,6 @@ window.smoothScroll = function (target) {
     let scrollContainer = target;
     do { //Otsib sihtkoha containeri
         scrollContainer = scrollContainer.parentNode;
-        if (!scrollContainer) return;
         scrollContainer.scrollTop += 1;
     } while (scrollContainer.scrollTop == 0);
 
