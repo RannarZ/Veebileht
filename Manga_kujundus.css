@@ -73,7 +73,7 @@ nav button:hover {
     color: black;
 }
 
-#tekst2 {
+.tekst2 {
     position: relative;
     width: 50%;
     text-align: center;
@@ -81,7 +81,7 @@ nav button:hover {
     transition: 0.3s;
 }
 
-#tekst1 {
+.tekst1 {
     position: relative;
     width: 50%;
     text-align: center;
@@ -108,7 +108,7 @@ nav button:hover {
 #comedy {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Manga pildid/Comedy.jpg") no-repeat;
     background-position: left;
-    background-size: cover cover fixed;
+    background-size: cover;
     color: black;
     z-index: -1;
 }
@@ -212,13 +212,13 @@ nav button:hover {
 
 
 
-#tekst1 p,
-#tekst1 h2 {
+.tekst1 p,
+.tekst1 h2 {
     text-align: center;
     margin-left: 5vw;
 }
 
-#tekst2 p,
+.tekst2 p,
 h2 {
     text-align: center;
     margin-right: 5vw;
