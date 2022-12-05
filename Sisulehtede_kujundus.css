@@ -15,13 +15,13 @@ nav {
 }
 
 .zanr {
-    height: 600px;
     width: 100%;
     margin-bottom: 0px;
     overflow: auto;
     color: black;
     transition: 0.5s;
     right: 0;
+    height: 100%;
 }
 
 .tekst2 {
