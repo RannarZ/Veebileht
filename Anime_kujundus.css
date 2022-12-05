@@ -39,6 +39,7 @@ nav button:hover {
     background-position: right;
     background-size: contain;
     color: black;
+    height: 600px;
 }
 
 #action {
