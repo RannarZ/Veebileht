@@ -1,18 +1,17 @@
 window.smoothScroll = function (target) {
     let scrollContainer = target;
-    do { //Leiab kuhu kerida
+    do { //Otsib sihtkoha containeri
         scrollContainer = scrollContainer.parentNode;
         if (!scrollContainer) return;
         scrollContainer.scrollTop += 1;
     } while (scrollContainer.scrollTop == 0);
 
     let targetY = 0;
-    do { //Leiab sihtkoha ülemise ääre 
-        if (target == scrollContainer) break;
+    do { //Leiab sihtkoha ülemise ääre
         targetY += target.offsetTop;
     } while (target = target.offsetParent);
 
-    scroll = function (c, a, b, i) {
+    scroll = function (c, a, b, i) {// Kerimise funktsioon
         i++; if (i > 30) return;
         c.scrollTop = a + (b - a) / 30 * i;
         setTimeout(function () { scroll(c, a, b, i); }, 7);

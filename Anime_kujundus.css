@@ -1,8 +1,3 @@
-html {
-    scroll-behavior: smooth;
-    transition: 3s;
-}
-
 body {
     background-image: url("Pildid/Anime lehe pildid/Üldine background.PNG");
     background-repeat: no-repeat;
@@ -17,25 +12,9 @@ header a.button {
     background-size: 50px;
     text-decoration: none;
     color: black;
-    background-color: grey;
+    background-color: #fccf55;
     border-radius: 5px;
     font-size: xx-large;
-}
-
-header h1 {
-    text-align: center;
-    color: white;
-    background-color: black;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
-}
-
-nav {
-    font-size: 0;
-    width: 100%;
-    margin-right: 0;
 }
 
 nav button {
@@ -54,37 +33,12 @@ nav button:hover {
     background-color: #feefc6;
 }
 
-.zanr {
-    height: 600px;
-    width: 100%;
-    margin-bottom: 0px;
-    overflow: auto;
-    color: black;
-    transition: 0.5s;
-    right: 0;
-}
 
 #anime {
     background: linear-gradient(to left, rgba(255, 255, 255, 0) 200px, rgba(255, 255, 255, 1) 750px, rgba(255, 255, 255, 1) 10px), url("pildid/Anime lehe pildid/Anime_section.png") no-repeat;
     background-position: right;
     background-size: contain;
     color: black;
-}
-
-.tekst2 {
-    position: relative;
-    width: 50%;
-    text-align: center;
-    float: right;
-    transition: 0.3s;
-}
-
-.tekst1 {
-    position: relative;
-    width: 50%;
-    text-align: center;
-    float: left;
-    transition: 0.3s;
 }
 
 #action {
@@ -128,7 +82,7 @@ nav button:hover {
 }
 
 #horror {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/horror.png") no-repeat;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0) 25vw, rgba(255, 255, 255, 1) 50vw, rgba(255, 255, 255, 1) 0), url("pildid/Anime lehe pildid/Õudus.png") no-repeat;
     background-position: right;
     background-size: contain;
     color: black;
@@ -206,46 +160,4 @@ nav button:hover {
     background-size: contain;
     color: black;
     z-index: -1;
-}
-
-
-
-.tekst1 p,
-.tekst1 h2 {
-    text-align: center;
-    margin-left: 5vw;
-}
-
-.tekst2 p,
-h2 {
-    text-align: center;
-    margin-right: 5vw;
-}
-
-.zanr:hover {
-    transform: scale(1.1);
-    z-index: 1;
-    right: 0;
-}
-
-.column_right {
-    float: right;
-    width: 50%;
-}
-
-.column_left {
-    float: left;
-    width: 50%;
-}
-
-p {
-    font-size: 16px;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-h3 {
-    font-size: 22px;
 }
